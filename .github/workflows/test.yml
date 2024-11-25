@@ -17,4 +17,10 @@ jobs:
       with:
         node-version: 20.18.0
         cache: 'yarn'
-    - run: yarn -v
+      run: yarn -v
+    - name: build project
+      run: |
+        yarn
+        yarn 
+    
+
