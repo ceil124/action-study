@@ -16,5 +16,5 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 20.18.0
-        cache: 'npm'
-    - run: node -v
+        cache: 'yarn'
+    - run: yarn -v
