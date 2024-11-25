@@ -15,7 +15,7 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
-        node-version: 20.17.0
+        node-version: 20.18.0
         cache: 'npm'
     - name: build project
       run: |
